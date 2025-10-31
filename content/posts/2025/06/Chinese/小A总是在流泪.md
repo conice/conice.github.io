@@ -8,8 +8,8 @@ authorLink = 'https://conice.github.com'
 description = 'a的手机屏幕还在亮着，还有美甲疯狂触碰手机屏幕的响声，像一只在夜里飞奔的小马驹。'
 featuredImage = '/images/default.jpg'
 
-tags = ["Markdown", "HTML"]
-categories = ["Markdown"]
+tags = ["Daily", ""]
+categories = ["Daily"]
 
 lightgallery = false
 
