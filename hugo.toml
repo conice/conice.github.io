@@ -24,7 +24,7 @@ languageName = "English"
 
 # 是否包括中日韩文字
 
-hasCJKLanguage = true
+hasCJKLanguage = false
 
 
 
@@ -152,7 +152,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
 
-  description = "紧握希望，如同一抹温暖的余烬，璀璨的低语指引着我们穿越夜幕的深邃。"
+  description = "关注有趣生活、分享实用心得，聚合数码潮流与前沿技术，辅以 AI 工具与教程，助力你提升日常效率、点亮数字创造力。"
 
   # 网站图片, 用于 Open Graph 和 Twitter Cards
 
@@ -168,7 +168,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     email = ""
 
-    link = ""
+    link = "https://conice.github.io/about/"
 
 
 
@@ -324,7 +324,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # 文章内容最长索引长度
 
-    contentLength = 4000
+    contentLength = 99999
 
     # 搜索框的占位提示语
 
@@ -420,7 +420,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.social]
 
-    GitHub = "https://github.com/conice/"
+    GitHub = "https://conice.github.io/about/"
 
     Linkedin = ""
 
@@ -728,13 +728,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       Linkedin = false
 
-      Whatsapp = false
+      Whatsapp = true
 
       Pinterest = false
 
       Tumblr = false
 
-      HackerNews = true
+      HackerNews = false
 
       Reddit = false
 
@@ -766,7 +766,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       Trello = false
 
-      Diaspora = true # 
+      Diaspora = false # 
 
       Mix = false
 
