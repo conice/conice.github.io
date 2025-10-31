@@ -5,13 +5,19 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+# 必须添加权限
 permissions:
   contents: read
   pages: write
   id-token: write
 
 jobs:
-  build-and-deploy:
+  deploy:
+    # 必须指定 environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}  # 部署成功后自动生成 URL
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,12 +29,15 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
-          extended: true  # LoveIt 需要 extended 版
+          extended: true
 
       - name: Build
         run: hugo --minify
 
-      - name: Upload Pages artifact
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
