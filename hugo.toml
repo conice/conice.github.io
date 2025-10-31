@@ -420,7 +420,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.social]
 
-    GitHub = "https://conice.github.io/about/"
+    GitHub = "https://github.com/conice?tab=repositories"
 
     Linkedin = ""
 

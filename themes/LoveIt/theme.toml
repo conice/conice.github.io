@@ -26,8 +26,8 @@ features = [
 min_version = "0.128.0"
 
 [author]
-  name = "Andy"
-  homepage = "https://conice.github.io/"
+  name = "Dillon"
+  homepage = "https://dillonzq.com/"
 
 [original]
   name = "Fastbyte01"
