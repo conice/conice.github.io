@@ -1,7 +1,7 @@
-baseURL = "https://Septemus.github.io/"
+baseURL = "https://conice.github.io/"
 
 # Change the default theme to be use when building the site with Hugo
-theme = "Loveit"
+theme = "LoveIt"
 
 # website title
 title = "Septemus's Blog"
@@ -26,11 +26,6 @@ enableRobotsTXT = true
 enableGitInfo = true
 # whether to use emoji code
 enableEmoji = true
-
-# ignore some build errors
-ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
-
-publishDir = "docs"
 
 # Author config
 [author]
