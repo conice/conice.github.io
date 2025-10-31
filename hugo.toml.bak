@@ -28,7 +28,7 @@ enableEmoji = true
 # ignore some build errors
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
-publishDir = "public"
+publishDir = "docs"
 
 # Author config
 [author]
