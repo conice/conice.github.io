@@ -384,7 +384,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # 主页显示的网站副标题 (允许 HTML 格式)
 
-      subtitle = "Andy's Lettle Blog"
+      subtitle = "生活是主角，科技当配角；这里有日常的慢节奏，也有数码的快闪光。"
 
       # 是否为副标题显示打字机动画
 
@@ -788,7 +788,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
 
-        shortname = ""
+        shortname = "User"
 
       # Gitalk 评论系统设置
 
