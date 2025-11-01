@@ -4,7 +4,7 @@ date = '2025-10-31T07:51:23+08:00'
 draft = false
 title = '一天天亮'
 author = 'Andy'
-authorLink = 'https://conice.github.com'
+authorLink = 'https://conice.github.io/posts/'
 description = '我还是看不透他,就像这五年来我从来没有看透过他一样。'
 featuredImage = '/images/default.jpg'
 

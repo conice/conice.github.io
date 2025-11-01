@@ -4,7 +4,7 @@ date = '2025-10-31T07:55:21+08:00'
 draft = false
 title = '小A总是在流泪'
 author = 'Andy'
-authorLink = 'https://conice.github.com'
+authorLink = 'https://conice.github.io/posts/'
 description = 'a的手机屏幕还在亮着，还有美甲疯狂触碰手机屏幕的响声，像一只在夜里飞奔的小马驹。'
 featuredImage = '/images/default.jpg'
 

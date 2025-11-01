@@ -4,7 +4,7 @@ date = '{{ .Date }}'
 draft = false
 title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 author = 'Andy'
-authorLink = 'https://conice.github.com'
+authorLink = 'https://conice.github.io/posts/'
 description = '文章描述'
 featuredImage = '/images/default.jpg'
 
