@@ -848,8 +848,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
+        url = "https://conice.github.io/Navigation/"
+        title = "Navigation"
     [languages.en.params]
       [languages.en.params.search]
         enable = true
@@ -871,12 +871,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
           title = ""
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "The clatter of keys captures life's delicate whispers of wonder."
           typeit = true
           social = true
           disclaimer = ""
       [languages.en.params.social]
-        GitHub = "xxxx"
+        GitHub = "https://github.com/conice?tab=repositories"
         Twitter = "xxxx"
         Instagram = "xxxx"
         Facebook = "xxxx"
